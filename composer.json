@@ -1,0 +1,38 @@
+{
+    "name": "jeroenvanrensen/laravel-starter",
+    "description": "Opinionated Laravel authentication and profile scaffolding with the TALL stack.",
+    "keywords": ["laravel", "auth", "profile", "jeroenvanrensen"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeroen van Rensen",
+            "homepage": "https://www.jeroenvanrensen.nl",
+            "role": "Web Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/filesystem": "^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JeroenvanRensen\\LaravelStarter\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "JeroenvanRensen\\LaravelStarter\\LaravelStarterServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
