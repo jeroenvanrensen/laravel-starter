@@ -8,7 +8,7 @@ use Symfony\Component\Process\Process;
 
 class InstallCommand extends Command
 {
-    protected $signature = 'starter:install';
+    protected $signature = 'start';
 
     protected $description = 'Install the Laravel Starter files.';
 
