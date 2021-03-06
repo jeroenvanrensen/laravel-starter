@@ -1,0 +1,33 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ namespacedModel }};
+
+class {{ class }}
+{
+    public function index()
+    {
+        //
+    }
+
+    public function store()
+    {
+        //
+    }
+
+    public function show({{ model }} ${{ modelVariable }})
+    {
+        //
+    }
+
+    public function update{{ model }} ${{ modelVariable }})
+    {
+        //
+    }
+
+    public function destroy({{ model }} ${{ modelVariable }})
+    {
+        //
+    }
+}
