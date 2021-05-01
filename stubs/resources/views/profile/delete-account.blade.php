@@ -28,7 +28,7 @@
     <x-modal name="showModal" title="Delete your account">
         <x-slot name="body">Are you sure you want to delete your account? Once your account is deleted, all of its resources and data will be permanently deleted.</x-slot>
 
-        <x-button class="mr-4" color="gray" wire:click="$toggle('showModal')">Cancel</x-button>
+        <x-button color="gray" wire:click="$toggle('showModal')">Cancel</x-button>
         <x-button wire:click="destroy" color="red" loading="destroy">Delete my account</x-button>
     </x-modal>
 </div>
