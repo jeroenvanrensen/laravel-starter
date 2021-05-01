@@ -42,7 +42,7 @@
                 <p class="text-gray-700 dark:text-gray-400">{{ $body }}</p>
             </main>
 
-            <footer class="flex justify-end items-center">
+            <footer class="flex justify-end items-center space-x-4">
                 {{ $slot }}
             </footer>
         </div>
