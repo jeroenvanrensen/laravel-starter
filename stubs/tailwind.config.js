@@ -1,8 +1,9 @@
 module.exports = {
+	mode: 'jit',
 	purge: [
 		'./resources/**/*.blade.php'
 	],
-	darkMode: 'media',
+	darkMode: false,
 	theme: {
 		extend: {}
 	},
