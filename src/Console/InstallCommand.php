@@ -20,7 +20,7 @@ class InstallCommand extends Command
                 '@tailwindcss/forms' => '^0.2.1',
                 'autoprefixer' => '10.1.0',
                 'postcss' => '8.2.1',
-                'tailwindcss' => '2.0.2'
+                'tailwindcss' => '2.1.2'
             ] + $packages;
         });
 
