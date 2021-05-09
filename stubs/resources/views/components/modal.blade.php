@@ -2,7 +2,7 @@
     class="fixed z-50 inset-0 overflow-y-auto"
     x-show="show"
     x-data="{ show: @entangle($name) }"
-    @keydown.escape.window="{{ $name }} = false"
+    @keydown.escape.window="show = false"
 >
     <div
         x-show="show"
