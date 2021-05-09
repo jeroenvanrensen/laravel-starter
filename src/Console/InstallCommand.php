@@ -69,7 +69,7 @@ class InstallCommand extends Command
         copy(__DIR__.'/../../stubs/webpack.mix.js', base_path('webpack.mix.js'));
         copy(__DIR__.'/../../stubs/resources/css/app.css', resource_path('css/app.css'));
 
-        $this->info('Breeze scaffolding installed successfully.');
+        $this->info('Starter files installed successfully.');
         $this->comment('Please execute the "npm install && npm run dev" command to build your assets.');
     }
 
